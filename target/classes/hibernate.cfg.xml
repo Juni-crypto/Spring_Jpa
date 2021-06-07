@@ -19,6 +19,8 @@
     <mapping class="inheritance_joined.Employee"/>  
 	  <mapping class="inheritance_joined.Contract_Employee"/>  
 	  <mapping class="inheritance_joined.Regular_Employee"/>  
+	    <mapping class="com.hiber.examples.product"/>
+	  
   
  </session-factory>
 </hibernate-configuration>
