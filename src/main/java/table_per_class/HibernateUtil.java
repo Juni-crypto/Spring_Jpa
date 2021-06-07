@@ -1,4 +1,4 @@
-package com.hiber.examples;
+package table_per_class;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

@@ -10,9 +10,9 @@
   <property name="hibernate.connection.password">root</property>
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.hbm2ddl.auto">update</property>
-  <mapping class="com.hiber.examples.Icarushub"/>
-  <mapping class="com.hiber.examples.SeniorEmployee"/>
-  <mapping class="com.hiber.examples.Trainer"/>
+  <mapping class="table_per_class.Icarushub"/>
+  <mapping class="table_per_class.SeniorEmployee"/>
+  <mapping class="table_per_class.Trainer"/>
     <mapping class="single_table.Makers"/>
   <mapping class="single_table.Sde_Team"/>
   <mapping class="single_table.Hde_Team"/>
