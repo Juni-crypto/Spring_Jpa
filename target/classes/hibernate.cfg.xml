@@ -4,7 +4,7 @@
 <hibernate-configuration>
  <session-factory>
   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydb</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
   <property name="hibernate.connection.username">root</property>
   <property name="hibernate.connection.password">root</property>
@@ -13,6 +13,12 @@
   <mapping class="com.hiber.examples.Icarushub"/>
   <mapping class="com.hiber.examples.SeniorEmployee"/>
   <mapping class="com.hiber.examples.Trainer"/>
+    <mapping class="single_table.Makers"/>
+  <mapping class="single_table.Sde_Team"/>
+  <mapping class="single_table.Hde_Team"/>
+    <mapping class="inheritance_joined.Employee"/>  
+	  <mapping class="inheritance_joined.Contract_Employee"/>  
+	  <mapping class="inheritance_joined.Regular_Employee"/>  
   
  </session-factory>
 </hibernate-configuration>
